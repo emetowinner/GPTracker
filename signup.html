@@ -44,7 +44,7 @@
 
     <div class="jumbotron text-center">
         <div class="container">
-            <h1>Result Management System</h1>
+           <p> <h1>RMS</h1></p>
             <p>worry no more because we got you covered. Upload, edit and track your academic progress!......</p>
 
         </div>
@@ -67,19 +67,31 @@
                             <h4 class="text-success text-center">Registeration form</h4>
                             <form action="" method="">
                                 <div class="form-row">
-                                    <div class="col-4">
+                                    <div class="col">
                                         <input
                                             pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                                             required class="form-control" placeholder="Email">
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col">
                                         <input type="text" class="form-control" placeholder="Full name" required>
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="tel" class="form-control" placeholder="Phone number" required>
                                     </div>
                                 </div>
                                 <br>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="tel" class="form-control" placeholder="Phone number" required>
+                                    </div>
+                                    
+                                    <div class="col">
+                                            <div class="form-group has-feedback has-error">
+                                                <div class="input-group date" id="Yadmission">
+                                                    <input name="Yadmission" class="form-control" value="16/09/2019"
+                                                        placeholder="Admission Year" type="date" id="Yadmission"
+                                                        data-bv-field="Yadmission">
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
                                 <div class="form-row">
                                     <div class="col">
                                         <input type="text" required class="form-control" placeholder="Institution">
@@ -87,19 +99,12 @@
                                     <div class="col">
                                         <input type="text" class="form-control" placeholder="Department" required>
                                     </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Mat number" required>
-                                    </div>
-                                    <div class="col">
-                                        <div class="form-group has-feedback has-error">
-                                            <div class="input-group date" id="Yadmission">
-                                                <input name="Yadmission" class="form-control" value="16/09/2019"
-                                                    placeholder="Admission Year" type="date" id="Yadmission"
-                                                    data-bv-field="Yadmission">
-                                            </div>
+                                </div><br>
+                                <div class="form-row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Mat number" required>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div><br>
                                 <div class="form-row">
                                     <div class="col">
                                         <input type="password" id="inputPassword1" class="form-control"

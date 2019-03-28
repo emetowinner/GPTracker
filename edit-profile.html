@@ -26,7 +26,8 @@
                 <a href="index.php" class="text-info nav-link">
                     <h4>HOME</h4>
                 </a>
-            </div><div class="navbar-brand">
+            </div>
+            <div class="navbar-brand">
                 <a href="profile.html" class="text-info nav-link">
                     <h4>Dashboard</h4>
                 </a>
@@ -48,7 +49,9 @@
 
     <div class="jumbotron text-center">
         <div class="container">
-            <h1>Result Management System</h1>
+            <p>
+                <h1>RMS</h1>
+            </p>
             <p>worry no more because we got you covered. Upload, edit and track your academic progress!......</p>
 
         </div>
@@ -56,7 +59,7 @@
 
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-md-auto col-lg-4 col-sm-12 text-center">
+            <div class="col-md-6 col-lg-4 col-sm-12 text-center">
                 <div class="container marketing">
 
                     <!-- Three columns of text below the carousel -->
@@ -80,41 +83,34 @@
                 </div>
             </div><br>
             <hr class="featurette-divider">
-            <div class="col-md-10 col-lg-8 col-sm-12">
+
+            <div class="col-md-6 col-lg-8 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <div class="card-subtitle">
                             <h4 class="text-success text-center">Edit Profile</h4>
                             <form action="" method="">
                                 <div class="form-row">
-                                    <div class="col-4">
+                                    <div class="col">
                                         <input
                                             pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                                             required class="form-control" placeholder="Email">
                                     </div>
-                                    <div class="col-4">
-                                        <input type="text" class="form-control" placeholder="Full name">
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="tel" class="form-control" placeholder="Phone number">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Change Name">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="text" required class="form-control" placeholder="Institution">
+                                        <input type="tel" class="form-control" placeholder="Change Number">
                                     </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Department">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Mat number">
-                                    </div>
+
                                     <div class="col">
                                         <div class="form-group has-feedback has-error">
                                             <div class="input-group date" id="Yadmission">
                                                 <input name="Yadmission" class="form-control" value="16/09/2019"
-                                                    placeholder="Admission-Year" type="date" id="Yadmission"
+                                                    placeholder="Change Admission Year" type="date" id="Yadmission"
                                                     data-bv-field="Yadmission">
                                             </div>
                                         </div>
@@ -122,24 +118,38 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col">
+                                        <input type="text" required class="form-control"
+                                            placeholder="Change Institution">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Change Department">
+                                    </div>
+                                </div><br>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Update Mat-Number">
+                                    </div>
+                                </div><br>
+                                <div class="form-row">
+                                    <div class="col">
                                         <input type="password" id="inputPassword1" class="form-control"
-                                            placeholder="Enter new password">
+                                            placeholder="New Password">
                                     </div>
                                     <div class="col">
                                         <input type="password" id="inputPassword2" class="form-control"
-                                            placeholder="Confirm new password">
+                                            placeholder="Confirm New Password" required>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="customFile">
-                                    <label class="custom-file-label" for="customFile">Update profile picture</label>
+                                    <label class="custom-file-label" for="customFile">Change Profile Picture</label>
                                 </div>
                                 <br>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="submit" id="inputSubmit" class="form-control btn btn-danger"
-                                            value="update">
+                                        <input type="submit" id="inputUpdate" class="form-control btn btn-danger"
+                                            value="Update">
                                     </div>
                                 </div>
                             </form>
